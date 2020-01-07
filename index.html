@@ -1,13 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-<link href="landing.style.css" rel="stylesheet"></head>
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="./images/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <title>Simple Piskel Clone</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./images/favicons/site.webmanifest">
+  <link rel="mask-icon" href="./images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="./images/favicons/favicon.ico">
+<link href="landing.css" rel="stylesheet"></head>
+
 <body>
-  <h1>Hello, World!!!</h1>
-  <a href="piskelClone.html">Let`s kill them ALL!!!</a>
-<script type="text/javascript" src="landing.bundle.js"></script></body>
+  <header class="header">
+    <div class="gif-box">
+      <img class="preview" src="images/headergif1.gif" alt="promo" width="600" height="650">
+      <img class="preview" src="images/headergif1.gif" alt="promo" width="600" height="650">
+    </div>
+    <h1 class="welcome">Welcome to Simple Piskel-Clone</h1>
+    <a class="redirect-button glitch" data-text="CREATE NEW IMAGE" href="piskelClone.html">CREATE NEW IMAGE</a>
+  </header>
+  <main class="main">
+    <div class="home-main">
+      <div class="home-main__text">
+        <span>Piskel is <b>online editor</b> for <b>animated sprites & pixel art</b> created by
+          <a href="https://github.com/Anastasya1701"><b class="names">Anastasya1701</b></a>
+        </span>
+        <div class="home-main__btn">
+          <a class="redirect-button glitch1" data-text="CREATE NEW IMAGE" href="piskelClone.html">CREATE NEW IMAGE</a>
+        </div>
+      </div>
+      <img src="images/megaRobot.png" alt="" width="722" height="523">
+    </div>
+    <section class="examples-section">
+      <div class="examples-section__text">Here are some examples of user submitted sprites that could be created in this
+        application</div>
+      <div class="examples-section__images">
+        <img src="images/heart.gif" class="examples-section__image-i" alt="">
+        <img src="images/tenor.gif" class="examples-section__image-i" alt="">
+      </div>
+    </section>
+    <section>
+      <div class="assets">
+        <div class="assets-left">
+          <div class="assets__item">
+            <div class="assets__item-text">
+              <h3>Draw frames</h3>
+              <p>Draw with no rules</p>
+            </div>
+            <img src="images/addFrame.png" alt="" class="" width="180" height="180">
+          </div>
+          <div class="assets__item">
+            <div class="assets__item-text">
+              <h3>Tools</h3>
+              <p>
+                Draw images with Pencil and fix Eraser,
+                <br>
+                Use Paint Bucket, draw strait line with Stroke and rectangles with Rectangle tool.
+                <br>
+                Lost nesessary color? Use Paint Bucket.
+                <br>
+              </p>
+            </div>
+            <img src="images/Tools.png" alt="" class="" width="180" height="180">
+          </div>
+          <div class="assets__item">
+            <div class="assets__item-text">
+              <h3>Export to GIF, PNG...</h3>
+              <p>Several export modes supported. Animated GIFs for sharing, spritesheet PNG/ZIP for bigger projects etc…
+              </p>
+            </div>
+            <img src="images/savePng.png" alt="" class="" width="180" height="180">
+          </div>
+        </div>
+        <div class="assets-right">
+          <div class="assets__item">
+            <img class="media-image" src="images/google.png" width="180" height="180">
+            <div class="assets__item-text">
+              <h3>Google Sign in</h3>
+              <p>No need to remember yet another password, just use your Google account to sign in</p>
+            </div>
+          </div>
+          <div class="assets__item">
+            <img class="media-image" src="images/google.png" width="180" height="180">
+            <div class="assets__item-text">
+              <h3>Make your image Black & White</h3>
+            </div>
+          </div>
+          <div class="assets__item">
+            <img class="media-image" src="images/Zoom.png" width="180" height="180">
+            <div class="assets__item-text">
+              <h3>Use Zoom if you what to see your drawing bigger</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="recomendations">
+      <div>
+        <p class="annotation">The author strongly recommends this streams for a good mood, motivation to work, setting
+          the right rhythm, as
+          well as enjoy viewing this work or creating your own images. </p>
+        <p class="annotation">Choose your stream - and let`s go!</p>
+      </div>
+      <div class="frame-container">
+        <iframe width="370" height="210" src="https://www.youtube.com/embed/AAahcF7ew-0" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="370" height="210" src="https://www.youtube.com/embed/ICcFMBzOnYs" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="370" height="210" src="https://www.youtube.com/embed/yY7iGa4t9-I" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="370" height="210" src="https://www.youtube.com/embed/kp54_1fgsFU" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    <span class="footer-information">Сreated by Anastasya1701. If you still have questions, you can contact me in
+      <a class="tg-icon" href="https://t.me/anastasya1701"></a>
+      <a class="vk-icon" href="https://vk.com/id77674994"></a>
+      <a class="github-icon" href="https://github.com/Anastasya1701"></a>
+    </span>
+  </footer>
+
+<script type="text/javascript" src="landing.js"></script></body>
+
 </html>
