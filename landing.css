@@ -397,13 +397,20 @@ body {
   background-color: #121212; }
 
 .header {
-  position: relative; }
+  position: relative;
+  display: flex;
+  padding-top: 30px; }
+  .header img {
+    margin-top: 17px;
+    padding: 10px;
+    background: #ffffff; }
 
 .welcome {
   margin: 35px auto;
   letter-spacing: 1.5px; }
 
 .main {
+  width: 100%;
   margin: 80px auto; }
 
 .footer {
@@ -466,49 +473,52 @@ body {
   margin: 60px auto;
   border: none; }
 
+.glitch {
+  margin-left: 26%; }
+
 @keyframes noise-anim {
   0% {
-    clip: rect(13px, 9999px, 34px, 0); }
+    clip: rect(8px, 9999px, 41px, 0); }
   5% {
-    clip: rect(76px, 9999px, 28px, 0); }
+    clip: rect(57px, 9999px, 68px, 0); }
   10% {
-    clip: rect(26px, 9999px, 99px, 0); }
+    clip: rect(97px, 9999px, 24px, 0); }
   15% {
-    clip: rect(89px, 9999px, 59px, 0); }
+    clip: rect(11px, 9999px, 35px, 0); }
   20% {
-    clip: rect(94px, 9999px, 7px, 0); }
+    clip: rect(95px, 9999px, 1px, 0); }
   25% {
-    clip: rect(27px, 9999px, 40px, 0); }
+    clip: rect(23px, 9999px, 19px, 0); }
   30% {
-    clip: rect(32px, 9999px, 19px, 0); }
+    clip: rect(58px, 9999px, 62px, 0); }
   35% {
-    clip: rect(86px, 9999px, 75px, 0); }
+    clip: rect(9px, 9999px, 49px, 0); }
   40% {
-    clip: rect(80px, 9999px, 77px, 0); }
+    clip: rect(65px, 9999px, 46px, 0); }
   45% {
-    clip: rect(60px, 9999px, 64px, 0); }
+    clip: rect(69px, 9999px, 61px, 0); }
   50% {
-    clip: rect(80px, 9999px, 95px, 0); }
+    clip: rect(54px, 9999px, 30px, 0); }
   55% {
-    clip: rect(41px, 9999px, 31px, 0); }
+    clip: rect(52px, 9999px, 68px, 0); }
   60% {
-    clip: rect(72px, 9999px, 96px, 0); }
+    clip: rect(73px, 9999px, 48px, 0); }
   65% {
-    clip: rect(72px, 9999px, 92px, 0); }
+    clip: rect(100px, 9999px, 53px, 0); }
   70% {
-    clip: rect(68px, 9999px, 13px, 0); }
+    clip: rect(8px, 9999px, 41px, 0); }
   75% {
-    clip: rect(85px, 9999px, 92px, 0); }
+    clip: rect(90px, 9999px, 6px, 0); }
   80% {
-    clip: rect(63px, 9999px, 17px, 0); }
+    clip: rect(68px, 9999px, 7px, 0); }
   85% {
-    clip: rect(65px, 9999px, 91px, 0); }
+    clip: rect(36px, 9999px, 62px, 0); }
   90% {
-    clip: rect(38px, 9999px, 11px, 0); }
+    clip: rect(53px, 9999px, 26px, 0); }
   95% {
-    clip: rect(14px, 9999px, 48px, 0); }
+    clip: rect(38px, 9999px, 63px, 0); }
   100% {
-    clip: rect(16px, 9999px, 32px, 0); } }
+    clip: rect(68px, 9999px, 56px, 0); } }
 
 .glitch:after {
   content: attr(data-text);
@@ -536,47 +546,47 @@ body {
 
 @keyframes noise-anim-2 {
   0% {
-    clip: rect(52px, 9999px, 10px, 0); }
+    clip: rect(31px, 9999px, 73px, 0); }
   5% {
-    clip: rect(86px, 9999px, 93px, 0); }
+    clip: rect(85px, 9999px, 6px, 0); }
   10% {
-    clip: rect(55px, 9999px, 91px, 0); }
+    clip: rect(57px, 9999px, 45px, 0); }
   15% {
-    clip: rect(32px, 9999px, 91px, 0); }
+    clip: rect(46px, 9999px, 85px, 0); }
   20% {
-    clip: rect(71px, 9999px, 63px, 0); }
+    clip: rect(64px, 9999px, 57px, 0); }
   25% {
-    clip: rect(61px, 9999px, 36px, 0); }
+    clip: rect(46px, 9999px, 59px, 0); }
   30% {
-    clip: rect(40px, 9999px, 71px, 0); }
+    clip: rect(12px, 9999px, 100px, 0); }
   35% {
-    clip: rect(37px, 9999px, 88px, 0); }
+    clip: rect(26px, 9999px, 66px, 0); }
   40% {
-    clip: rect(41px, 9999px, 4px, 0); }
+    clip: rect(19px, 9999px, 67px, 0); }
   45% {
-    clip: rect(53px, 9999px, 74px, 0); }
+    clip: rect(68px, 9999px, 17px, 0); }
   50% {
-    clip: rect(14px, 9999px, 74px, 0); }
+    clip: rect(49px, 9999px, 29px, 0); }
   55% {
-    clip: rect(58px, 9999px, 18px, 0); }
+    clip: rect(21px, 9999px, 39px, 0); }
   60% {
-    clip: rect(83px, 9999px, 25px, 0); }
+    clip: rect(87px, 9999px, 74px, 0); }
   65% {
-    clip: rect(52px, 9999px, 86px, 0); }
+    clip: rect(46px, 9999px, 80px, 0); }
   70% {
-    clip: rect(2px, 9999px, 27px, 0); }
+    clip: rect(16px, 9999px, 11px, 0); }
   75% {
-    clip: rect(21px, 9999px, 42px, 0); }
+    clip: rect(26px, 9999px, 67px, 0); }
   80% {
-    clip: rect(92px, 9999px, 63px, 0); }
+    clip: rect(58px, 9999px, 28px, 0); }
   85% {
-    clip: rect(5px, 9999px, 9px, 0); }
+    clip: rect(84px, 9999px, 18px, 0); }
   90% {
-    clip: rect(74px, 9999px, 26px, 0); }
+    clip: rect(52px, 9999px, 88px, 0); }
   95% {
-    clip: rect(45px, 9999px, 73px, 0); }
+    clip: rect(47px, 9999px, 99px, 0); }
   100% {
-    clip: rect(77px, 9999px, 65px, 0); } }
+    clip: rect(54px, 9999px, 11px, 0); } }
 
 .glitch:before {
   content: attr(data-text);
@@ -606,32 +616,39 @@ body {
   margin: 15px;
   padding: 25px;
   background: black;
-  border: 1px solid white; }
+  border: 1px solid white;
+  outline: 8px solid black; }
 
 .examples-section__text {
-  padding-top: 50px;
-  padding-bottom: 36px;
-  font-size: 3rem; }
+  padding-top: 100px;
+  padding-bottom: 59px;
+  font-size: 2.5rem; }
 
 .examples-section__images {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around; }
   .examples-section__images img {
-    width: 250px; }
+    width: 250px;
+    margin-top: 30px; }
+
+.bird-gif {
+  border: 1px solid #929292; }
 
 .home-main {
   display: flex;
   justify-content: space-around;
-  width: 90%;
+  width: 100%;
   background-color: #525252;
   background-image: url(images/bgk.svg); }
 
 .home-main__text {
   display: flex;
   flex-direction: column;
+  max-width: 700px;
   font-size: 3rem;
   font-family: Roboto;
-  letter-spacing: 1.5px; }
+  letter-spacing: 2px; }
   .home-main__text span {
     margin: 50px auto;
     padding: 55px 20px 0 20px; }
@@ -639,23 +656,53 @@ body {
 .names:hover {
   color: #ffd700; }
 
+.function-tools {
+  margin: 100px 0;
+  padding: 30px 0 30px 0;
+  background-color: #2d2d2d;
+  background-image: url(images/bgk.svg); }
+  .function-tools h2 {
+    font-weight: inherit;
+    font-size: 2.5rem; }
+
 .assets {
   display: flex;
   justify-content: center;
-  width: 90%;
-  margin: 50px 0;
-  background-color: #202020; }
+  width: 100%;
+  margin: 50px 0; }
 
 .assets__item {
   display: flex;
   margin-top: 20px; }
 
 .assets__item-text {
-  width: 360px; }
+  width: 360px;
+  padding: 0 20px 0 20px;
+  letter-spacing: 0.5px; }
+  .assets__item-text h3 {
+    margin-bottom: 7px;
+    font-size: 1.5rem; }
+  .assets__item-text p {
+    font-size: 1.2rem; }
 
 .assets-right {
-  margin-left: 10px; }
+  margin-left: 10px;
+  text-align: left; }
 
 .assets-left {
-  margin-right: 10px; }
+  margin-right: 10px;
+  text-align: right; }
+
+.main-preview {
+  width: 800px;
+  background: url(images/main-preview.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); }
+
+.disney-img {
+  background: white; }
+
+.save-png {
+  border: 1px solid white; }
 

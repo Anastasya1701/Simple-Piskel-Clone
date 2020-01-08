@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,14 +15,11 @@
   <link rel="mask-icon" href="./images/favicons/safari-pinned-tab.svg" color="#5bbad5">
   <link rel="shortcut icon" href="./images/favicons/favicon.ico">
 <link href="landing.css" rel="stylesheet"></head>
-
 <body>
   <header class="header">
-    <div class="gif-box">
-      <img class="preview" src="images/headergif1.gif" alt="promo" width="600" height="650">
-      <img class="preview" src="images/headergif1.gif" alt="promo" width="600" height="650">
-    </div>
-    <h1 class="welcome">Welcome to Simple Piskel-Clone</h1>
+    <h1>
+      <img src="images/logo.png" alt="Piskel">
+    </h1>
     <a class="redirect-button glitch" data-text="CREATE NEW IMAGE" href="piskelClone.html">CREATE NEW IMAGE</a>
   </header>
   <main class="main">
@@ -36,23 +32,35 @@
           <a class="redirect-button glitch1" data-text="CREATE NEW IMAGE" href="piskelClone.html">CREATE NEW IMAGE</a>
         </div>
       </div>
-      <img src="images/megaRobot.png" alt="" width="722" height="523">
+      <div class="main-preview"></div>
     </div>
     <section class="examples-section">
       <div class="examples-section__text">Here are some examples of user submitted sprites that could be created in this
         application</div>
       <div class="examples-section__images">
-        <img src="images/heart.gif" class="examples-section__image-i" alt="">
         <img src="images/tenor.gif" class="examples-section__image-i" alt="">
+        <img src="images/fire.gif" class="examples-section__image-i" alt="">
+        <img src="images/heart.gif" class="examples-section__image-i" alt="">
+        <img src="images/frog.gif" class="examples-section__image-i" alt="">
+        <img src="images/picahu2.gif" class="examples-section__image-i" alt="">
+        <img src="images/egs.gif" class="examples-section__image-i" alt="">
+        <img src="images/bird.gif" class="examples-section__image-i bird-gif" alt="">
+        <img src="images/osean-second.gif" class="examples-section__image-i" alt="">
       </div>
     </section>
-    <section>
+    <section class="function-tools">
+      <h2>
+        Functions that you can use
+      </h2>
       <div class="assets">
         <div class="assets-left">
           <div class="assets__item">
             <div class="assets__item-text">
               <h3>Draw frames</h3>
-              <p>Draw with no rules</p>
+              <p>Draw with no rules!
+                And change the frame order with drag&drop. Also you can add,
+                delete and clone frame.
+              </p>
             </div>
             <img src="images/addFrame.png" alt="" class="" width="180" height="180">
           </div>
@@ -60,11 +68,8 @@
             <div class="assets__item-text">
               <h3>Tools</h3>
               <p>
-                Draw images with Pencil and fix Eraser,
-                <br>
-                Use Paint Bucket, draw strait line with Stroke and rectangles with Rectangle tool.
-                <br>
-                Lost nesessary color? Use Paint Bucket.
+                Pencil, Choose Color (dropper), Paint Bucket, Eraser, Stroke, Rectangle
+                and make your image Black & White (gray scale).
                 <br>
               </p>
             </div>
@@ -72,31 +77,60 @@
           </div>
           <div class="assets__item">
             <div class="assets__item-text">
-              <h3>Export to GIF, PNG...</h3>
-              <p>Several export modes supported. Animated GIFs for sharing, spritesheet PNG/ZIP for bigger projects etc…
+              <h3>Color palette</h3>
+              <p>
+                Colors everywhere! Click on the current color, and see whole the palette of available colors.
               </p>
             </div>
-            <img src="images/savePng.png" alt="" class="" width="180" height="180">
+            <img src="images/colors.png" alt="" class="" width="180" height="180">
+          </div>
+          <div class="assets__item">
+            <div class="assets__item-text">
+              <h3>Export to GIF, PNG...</h3>
+              <p>
+                Several export modes supported.
+                Animated GIFs, PNG for sharing...
+              </p>
+            </div>
+            <img src="images/savePng.png" alt="" class=" save-png" width="180" height="180">
           </div>
         </div>
         <div class="assets-right">
+          <div class="assets__item">
+            <img class="media-image disney-img" src="images/disney.gif" width="180" height="180">
+            <div class="assets__item-text">
+              <h3>Live preview</h3>
+              <p>
+                Check a preview of your animation in real time. Change fps as you want.
+                Change animation preview speed 1-24 fps.
+                Use the hotkey F11, and watch the animation preview on the full screen .
+              </p>
+            </div>
+          </div>
+          <div class="assets__item">
+            <img class="media-image" src="images/canvas.png" width="180" height="180">
+            <div class="assets__item-text">
+              <h3>Big canvas</h3>
+              <p>
+                Draw on big scaled canvas!
+                Use mouse wheel to Zoom, in case you what to see your drawing bigger.
+              </p>
+            </div>
+          </div>
+          <div class="assets__item">
+            <img src="images/resize.png" alt="" class="" width="180" height="180">
+            <div class="assets__item-text">
+              <h3>Resize</h3>
+              <p>
+                Change size of your creative drawing.
+              </p>
+            </div>
+          </div>
           <div class="assets__item">
             <img class="media-image" src="images/google.png" width="180" height="180">
             <div class="assets__item-text">
               <h3>Google Sign in</h3>
               <p>No need to remember yet another password, just use your Google account to sign in</p>
-            </div>
-          </div>
-          <div class="assets__item">
-            <img class="media-image" src="images/google.png" width="180" height="180">
-            <div class="assets__item-text">
-              <h3>Make your image Black & White</h3>
-            </div>
-          </div>
-          <div class="assets__item">
-            <img class="media-image" src="images/Zoom.png" width="180" height="180">
-            <div class="assets__item-text">
-              <h3>Use Zoom if you what to see your drawing bigger</h3>
             </div>
           </div>
         </div>
@@ -106,15 +140,16 @@
   <footer>
     <div class="recomendations">
       <div>
-        <p class="annotation">The author strongly recommends this streams for a good mood, motivation to work, setting
-          the right rhythm, as
-          well as enjoy viewing this work or creating your own images. </p>
-        <p class="annotation">Choose your stream - and let`s go!</p>
+        <p class="annotation">
+          The author strongly recommends this streams for a good mood, motivation to work, as
+          well as enjoy viewing this work or creating your own images.
+        </p>
+        <p class="annotation">
+          Choose your stream - and let`s go!
+        </p>
       </div>
       <div class="frame-container">
-        <iframe width="370" height="210" src="https://www.youtube.com/embed/AAahcF7ew-0" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="370" height="210" src="https://www.youtube.com/embed/ICcFMBzOnYs" frameborder="0"
+        <iframe width="370" height="210" src="https://www.youtube.com/embed/lTRiuFIWV54" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="370" height="210" src="https://www.youtube.com/embed/yY7iGa4t9-I" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
